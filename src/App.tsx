@@ -174,6 +174,9 @@ function App() {
           </div>
         )}
       </div>
+      <footer className="text-center text-gray-400 text-sm mt-12">
+      © {new Date().getFullYear()} Mowleen Armstrong. Licensed under the MIT License.
+      </footer>
     </div>
   );
 }
